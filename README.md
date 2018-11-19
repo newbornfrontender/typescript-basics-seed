@@ -6,7 +6,7 @@ TypeScript: Basics Course Seed
 
 ---
 
-<p>Full source code: <a href="https://github.com/UltimateAngular">UltimateAngular</a> / <a href="https://github.com/UltimateAngular/typescript-basics-src">typescript-basics-src</a><p>
+<p align="center">Full source code: <a href="https://github.com/UltimateAngular">UltimateAngular</a> / <a href="https://github.com/UltimateAngular/typescript-basics-src">typescript-basics-src</a><p>
 
 ---
 
