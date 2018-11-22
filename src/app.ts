@@ -1,11 +1,9 @@
-const pizzaCost: number = 10;
-const pizzaTopings: number = 2;
+const coupon: string = 'pizza25';
 
-function calculatePrice(cost: number, topings: number): number {
-  return cost + 1.5 * topings;
+function normalizeCoupon(code: string): string {
+  return code.toUpperCase();
 }
 
-const cost: string = calculatePrice(pizzaCost, pizzaTopings).toString();
+const couponMessage: string = `Final coupon is ${normalizeCoupon(coupon)}`;
 
-console.log(`Pizza costs: ${cost}`);
-console.log(typeof cost);
+console.log(couponMessage);
