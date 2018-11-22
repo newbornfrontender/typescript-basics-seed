@@ -1,9 +1,5 @@
-let selectedToping: string = 'pepperoni';
-
-function selectToping(toping: string): void {
-  selectedToping = toping;
+function orderError(error: string): never {
+  throw new Error(error);
 }
 
-selectToping('bacon');
-
-console.log(selectedToping);
+orderError('Something went wrong!');
