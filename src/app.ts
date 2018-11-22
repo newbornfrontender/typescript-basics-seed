@@ -1,4 +1,9 @@
-let implicitCoupon = 'pizza25';
-let explicitCoupon: string;
+let selectedToping: string = 'pepperoni';
 
-explicitCoupon = 'pizza25';
+function selectToping(toping: string): void {
+  selectedToping = toping;
+}
+
+selectToping('bacon');
+
+console.log(selectedToping);
