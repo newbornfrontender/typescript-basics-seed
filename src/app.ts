@@ -1,17 +1,11 @@
-// let sumOrder: Function;
+let sumOrder: (price: number, quantity?: number) => number;
 
-// sumOrder = (price: number, quantity: number): number => price * quantity;
+sumOrder = (x, y) => {
+  if (y) return x * y;
 
-// -----------------------------------------------------------------------------
+  return x;
+};
 
-// let sumOrder: (price: number, quantity:number) => number = (x, y) => x * y;
-
-// -----------------------------------------------------------------------------
-
-let sumOrder: (price: number, quantity: number) => number;
-
-sumOrder = (x, y) => x * y;
-
-const sum = sumOrder(25, 2);
+const sum = sumOrder(25);
 
 console.log(`Total sum: ${sum}`);
