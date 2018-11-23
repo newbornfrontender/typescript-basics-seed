@@ -1,15 +1,3 @@
-// let sizes: string[];
+let pizza: [string, number, boolean];
 
-// sizes = ['small', 'medium', 'large'];
-
-// -----------------------------------------------------------------------------
-
-let sizes: number[];
-
-sizes = [1, 2, 3];
-
-// -----------------------------------------------------------------------------
-
-let topings: Array<string>;
-
-topings = ['pepperoni', 'bacon'];
+pizza = ['Pepperoni', 20, true];
